@@ -20,6 +20,11 @@ Antes de compilar e executar o código, verifique se você tem os seguintes requ
 
 ### 🧪 Compilando o código
 
+Primeiramente, vá até a pasta dos códigos baixados.
+```bash
+cd [nome_da_pasta]
+```
+
 Para compilar a versão **sequencial**:
 
 ```bash
