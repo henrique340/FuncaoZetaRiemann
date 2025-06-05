@@ -92,12 +92,12 @@ Gráficos de **SpeedUp** e **Eficiência** foram gerados com base nos testes aci
 
 ### SpeedUp por número de threads
 
-![Gráfico de SpeedUp](./SpeedUp.PNG)
+![Gráfico de SpeedUp](./gráficos/SpeedUp.PNG)
 
 
 ### Eficiência por número de threads
 
-![Gráfico de SpeedUp](./Eficiencia.PNG)
+![Gráfico de SpeedUp](./gráficos/Eficiencia.PNG)
 ---
 
 ## 🧠 Conclusão
