@@ -1,4 +1,4 @@
-# função Zeta de Riemann
+# Função Zeta de Riemann
 
 ## Universidade Presbiteriana Mackenzie  
 **Faculdade de Computação e Informática**
@@ -7,6 +7,35 @@
 
 Este projeto tem como objetivo aplicar técnicas de computação paralela na busca por zeros da função Zeta de Riemann no eixo crítico. Foram desenvolvidas duas versões do algoritmo: uma **sequencial** e outra **paralela**, com o intuito de comparar desempenho e escalabilidade.
 
+---
+
+## Como usar o código
+
+### 🔧 Requisitos
+Antes de compilar e executar o código, verifique se você tem os seguintes requisitos instalados:
+
+- [GCC](https://gcc.gnu.org/) com suporte a OpenMP
+- Sistema Linux, WSL ou terminal com compilador compatível
+- Make (opcional, se usar um Makefile)
+
+### 🧪 Compilando o código
+
+Para compilar a versão **sequencial**:
+
+```bash
+gcc -fopenmp -o serial serial.c -lm
+```
+
+Para compilar a versão **paralela**:
+```bash
+gcc -fopenmp -o paralela paralela.c -lm
+```
+
+Para mudar a quantidade de Threads na versão **paralela**:
+vá até a função int main() e altere:
+```bash
+omp_set_num_threads(1); //altere a quantidade de threads
+```
 ---
 
 ## ⚙️ Descrição
