@@ -56,6 +56,14 @@ A versão paralela utiliza OpenMP para dividir o trabalho entre múltiplas threa
 
 Gráficos de **SpeedUp** e **Eficiência** foram gerados com base nos testes acima. Eles evidenciam o comportamento da paralelização com o aumento do número de threads.
 
+### SpeedUp por número de threads
+
+![Gráfico de SpeedUp](./SpeedUp.png)
+
+
+### Eficiência por número de threads
+
+![Gráfico de Eficiência](./Eficiencia.png)
 ---
 
 ## 🧠 Conclusão
